@@ -6,3 +6,4 @@
 ### Tests covered include:
 * Multiple assertEquals with 100% branch coverage
 * Parameterised Test
+* Intro. to Exception Testing
