@@ -8,6 +8,7 @@ public class MyPrimeTest {
     //Ideally put each assert statement in it's own method
     @Test
     public void isPrimeShouldReturnTrueForPrimes() {
+        System.out.println("MyPrimeTest for primes");
         assertEquals("3 is prime", true, MyPrime.isPrime(3));
         assertEquals("2 is prime", true, MyPrime.isPrime(2));
         assertEquals("7 is prime", true, MyPrime.isPrime(7));
@@ -16,6 +17,7 @@ public class MyPrimeTest {
 
     @Test
     public void isPrimeShouldReturnFalseForNonPrimes() {
+        System.out.println("MyPrimeTest for non-primes");
         assertEquals("0 is not prime", false, MyPrime.isPrime(0));
         assertEquals("8 is not prime", false, MyPrime.isPrime(8));
         assertEquals("4 is not prime", false, MyPrime.isPrime(4));

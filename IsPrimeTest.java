@@ -30,6 +30,7 @@ public class IsPrimeTest {
 
     @Test
     public void test() {
+        System.out.println("IsPrimeTest for " + fInput);
         assertEquals("isPrime(" + fInput + ")", fExpected, MyPrime.isPrime(fInput));
     }
 }
