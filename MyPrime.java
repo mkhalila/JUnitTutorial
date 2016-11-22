@@ -20,4 +20,10 @@ public class MyPrime {
         }
         return true;
     }
+
+    public static long[] primes(int primeCount) throws IllegalArgumentException {
+        if (primeCount < 1) throw new IllegalArgumentException(
+                "MyPrime.primes must be called with primeCount >= 1");
+        return new long[1];
+    }
 }

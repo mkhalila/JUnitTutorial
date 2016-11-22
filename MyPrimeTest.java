@@ -24,4 +24,11 @@ public class MyPrimeTest {
         assertEquals("25 is not prime", false, MyPrime.isPrime(25));
         assertEquals("27 is not prime", false, MyPrime.isPrime(27));
     }
+
+    //Takes name of Exception Class,
+    //test only passes if code causes Exception to be thrown
+    @Test(expected = IllegalArgumentException.class)
+    public void primesShouldThrowExceptionFor0() {
+        MyPrime.primes(0);
+    }
 }
