@@ -11,7 +11,7 @@ import org.junit.runner.notification.Failure;
 public class TestRunner {
     public static void main(String[] args) {
         // Replace MyTestClass by your JUnit tests class
-        Result result = JUnitCore.runClasses(IsPrimeTest.class);
+        Result result = JUnitCore.runClasses(MyPrimeTestSuite.class);
         for (Failure failure : result.getFailures()) {
             System.out.println(failure.toString());
         }
